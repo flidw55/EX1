@@ -3,6 +3,7 @@ from __future__ import division
 import math, random
 
 
+
 if __name__ == "__main__":
     # coding=utf-8
     #from __future__ import division
