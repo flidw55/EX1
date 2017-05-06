@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 from bs4 import BeautifulSoup
-import requests,re
+import requests
 
 
 url = "http://store.nike.com/tw/zh_tw/pw/%E7%94%B7%E6%AC%BE-%E9%9E%8B%E6%AC%BE/7puZoi3?ipp=120"

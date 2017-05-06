@@ -31,7 +31,7 @@ print "---第五題---"
 
 
 
-"""
+
 def shape(A):
     num_rows = len(A)
     num_cols = len(A[0]) if A else 0
@@ -76,4 +76,4 @@ print "P(get1|get2) = p(aboth)/p(get2): ",
 print "p(get1|get2)/p(get2) = p(get1)p(get2)/p((get2) = p(get1) : ",
 
 
-"""
+
