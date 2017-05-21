@@ -22,8 +22,6 @@ Nikes=[]
 for div in soup("div","grid-item-content"):
  Nikes.append(Nike_info(div))
 
-
-
 prices=[]
 for i in Nikes:
   prices.append(int(i["price"][4:9].replace(",","")))
