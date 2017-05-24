@@ -1,8 +1,8 @@
 from __future__ import division
 from collections import Counter, defaultdict
-from code.linear_algebra import vector_subtract
-from code.statistics import mean, correlation, standard_deviation, de_mean
-from code.gradient_descent import minimize_stochastic
+from linear_algebra import vector_subtract
+from statistics import mean, correlation, standard_deviation, de_mean
+from gradient_descent import minimize_stochastic
 import math, random
 
 def predict(alpha, beta, x_i):
