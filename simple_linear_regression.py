@@ -59,10 +59,10 @@ if __name__ == "__main__":
     # choose random value to start
     random.seed(0)
     theta = [random.random(), random.random()]
-    alpha, beta = minimize_stochastic(squared_error, 
+    alpha, beta = minimize_stochastic(squared_error,
                                       squared_error_gradient,
                                       num_friends_good,
-                                      daily_minutes_good, 
+                                      daily_minutes_good,
                                       theta,
                                       0.0001)
     print "alpha", alpha

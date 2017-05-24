@@ -1,6 +1,7 @@
 from collections import Counter
 from linear_algebra import distance, vector_subtract, scalar_multiply
 from functools import reduce
+import matplotlib.pyplot as plt
 import math, random
 
 def sum_of_squares(v):
