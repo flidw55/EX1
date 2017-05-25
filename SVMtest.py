@@ -8,7 +8,7 @@ clf.fit(iris.data[:-10], iris.target[:-10])
 result=clf.predict(iris.data[:-10])
 
 print ("predict")
-print result[-10:]
+print clf
 print("real")
 print(iris.data[-10:])
 print (iris.target[-10:])
